@@ -10,6 +10,11 @@
 		height: 120px;
 	}
 
+	header img{
+	position: relative;
+	left: 20px;
+	}
+
 	header nav {
 		justify-content: space-between;
 		width: 100%;
@@ -119,7 +124,7 @@
 	.general-accomo .gallery .card{
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-between;
 		width: 100%;
 		height: 225px;
 	}

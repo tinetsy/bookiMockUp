@@ -14,6 +14,8 @@ header{
 
 header img{
 	height: 50px;
+	position: relative;
+    top: 15px;
 }
 
 header nav{
@@ -128,11 +130,11 @@ main{
 	margin-bottom: 20px;
 	cursor: pointer;
 	flex-wrap: wrap;
-	transition: 0.3s;
+	position: relative;
   }
    
    .filter-option:hover{
-   	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   	border-color: rgb(0,100,245);
    }
   
   .filter-option p {
@@ -145,9 +147,26 @@ main{
   .filter-option i {
 	font-size: 20px;
 	color:  rgb(0,100,245);
-	background-color: #DEEBFF;
-	border-radius: 50px;
 	padding: 10px;
+  }
+
+  .filter-option .fa-child-reaching{
+  	position: relative;
+  	left: 2px;
+  }
+
+  .filter-option .fa-money-bill-wave{
+  	position: relative;
+  	left: -1px;
+  }
+
+  .filter-option .blue-circle{
+  	background-color: #DEEBFF;
+	border-radius: 50px;
+	padding: 20px;
+	position: absolute;
+	left: 0px;
+	z-index: -1;
   }
   
   #filter-head {
@@ -191,6 +210,7 @@ main{
 .general-accomo .gallery .card{
 	cursor: pointer;
 	flex: 1 0 260px;
+	gap: 5px;
 	height: 225px;
 	border-radius: 15px;
 	background-color: white;
@@ -222,7 +242,7 @@ main{
 .general-accomo .gallery .card .description, .popular-accomo .gallery.card .description {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	height:40%;
 	line-height: 25px;
 	padding-left: 8px;
