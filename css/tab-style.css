@@ -1,0 +1,17 @@
+/* tablet version */
+
+@media only screen and (max-width: 992px) {
+	.general-accomo{
+		width: 50%;
+	}
+	.popular-accomo{
+		width: 50%
+	}
+	
+	#filter-head{
+		flex: 1 0 100%;
+		line-height: 0px;
+		margin-bottom: 15px;
+	}
+
+}
