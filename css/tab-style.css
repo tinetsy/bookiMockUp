@@ -1,17 +1,40 @@
 /* tablet version */
 
 @media only screen and (max-width: 992px) {
+
+	.accomodation{
+		flex-direction: column;
+		gap: 30px;
+	}
+
 	.general-accomo{
-		width: 50%;
+		width: 100%;
 	}
 	.popular-accomo{
-		width: 50%
+		width: 100%
 	}
 	
 	#filter-head{
 		flex: 1 0 100%;
 		line-height: 0px;
 		margin-bottom: 15px;
+	}
+
+	.activities .gallery{
+		height: 850px;
+		justify-content: space-around;
+	}
+
+	.activities .gallery .card{
+		width: 48%;
+		height:30%;
+	}
+	.activities .gallery .big .image, .activities .gallery .middle .image, .activities .gallery .small .image {
+		height: 80%;
+	}
+
+	.activities .gallery .big .description, .activities .gallery .middle .description, .activities .gallery .small .description{
+		height: 20%;
 	}
 
 }
